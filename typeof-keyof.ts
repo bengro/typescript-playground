@@ -1,7 +1,7 @@
 const aPerson = {
   name: "John",
   age: 11,
-  city: "Mempthis",
+  city: "Memphis",
 };
 
 type APerson = typeof aPerson;

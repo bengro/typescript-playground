@@ -1,9 +1,11 @@
 class Test {
+  // function definition from before ES6
   functionScope() {
     console.log(`this: ${this}`);
     this.hello();
   }
 
+  // arrow function
   lexicalScope = () => {
     console.log(`this: ${this}`);
     this.hello();
